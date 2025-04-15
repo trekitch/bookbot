@@ -6,9 +6,6 @@ def get_book_text(file_path):
         content = f.read()
     return content
 
-def sort_on(dict):
-    return dict["count"]
-
 def main():
     try:
         file_path = sys.argv[1]
